@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5e6bf8;
+    height: 100vh;
+}
+
+.Container{
+    display: flex;
+    height: 80vh;
+    width: 90vw;
+    box-shadow: rgba(0,0,0,0.6) 0px 10px 36px 0px,  rgba( 0,0,0,0.6) 0px 0px 0px 1px;
+    color: white;
+}
+
+.profile{
+    width: 45vw;
+    background-color: #5465f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+
+.imgDiv img{
+    height: 90px;
+    width: 90px;
+    background-color: #ffffff;
+    border-radius: 50%;
+
+}
+
+.profile h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.profile h3 {
+font-size: 25px;
+font-weight: 500;
+}
+
+.profile p {
+    font-size: 20px;
+}
+
+.btn_div{
+    display: flex;
+}
+.btn_div button {
+background-color: transparent;
+border :1px solid white;
+width: 300px;
+height: 40px;
+color: white;
+border-radius: 30px;
+
+}
+
+.btn_div div{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    margin-left: -30px;
+
+}
+
+/*...................login Section...................*/
+.login{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px;
+    justify-content: space-between;
+    align-items: center;
+    width: 45vw;
+    background-color: white;
+    color:#6165c1;
+
+}
+.login h1 {
+    font-size: 25px;
+}
+form {
+    width: 300px;
+    height: 130px;
+    padding: 40px 0px;
+    box-shadow: rgba( 0,0,0,0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form input{
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #5465f9;
+    height: 30px;
+    width: 230px;
+    outline: none;
+}
+
+
+form button{
+background-color: #535ffa;
+border: none;
+width: 230px;
+height: 40px;
+color: white;
+border-radius: 30px;
+}
+
+.btn_div2{
+    display: flex;
+}
+
+.btn_div2 button{
+    background-color: transparent;
+    border: 1px solid #535ffa;
+    width: 300px;
+    height: 40px;
+    color: #535ffa;
+    border-radius: 30px;
+}
+
+.btn_div2 div{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #535ffa;
+    position: relative;
+    margin-left: -30px;
+}
